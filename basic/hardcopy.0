@@ -1,0 +1,41 @@
+def hello_world():
+    return 'Hello World!'
+
+@app.route('/')
+def index():
+        return 'Index Page :'
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0")
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"hello.py" 13L, 222C written
+ubuntu@ip-172-31-12-28:~/273_project/flask$
+ubuntu@ip-172-31-12-28:~/273_project/flask$
+ubuntu@ip-172-31-12-28:~/273_project/flask$
+ubuntu@ip-172-31-12-28:~/273_project/flask$

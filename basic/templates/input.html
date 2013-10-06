@@ -1,0 +1,13 @@
+<!doctype html>
+
+{% if output %}
+  <h1>Hello {{ output }}</h1>
+{% endif %}
+
+<html>
+<form name="input" action="/sum" method="POST">
+<br>First Input : <input type="text" name="a" {% if a %}} value="{{a}}" {% endif %}>
+<br>Second Input : <input type= "text" name="b" {% if b %}} value="{{b}}" {% endif %} >
+<br><input type="submit" value="Submit">
+</form>
+</html>
