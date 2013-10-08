@@ -1,0 +1,14 @@
+<html>
+{% for entry in listFiles %}
+	{% if entry.id.split('.')[0] != "folder" %}
+	<p><b> <a download="{{entry.name}}" href="{{entry.raw_link}}">{{entry.name}}</a> :: {{entry.size}}</b></p>
+	{% else %}
+	<p><b> <a href="list_files?folder={{entry.id}}">{{entry.name}}</a> :: {{entry.size}}</b></p>
+	{% endif %}
+{% endfor %}
+
+
+
+</html>
+
+
